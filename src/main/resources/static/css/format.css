@@ -1,0 +1,58 @@
+
+			 body{
+			 
+			 }
+			 div{ 
+			 /*margin:15px;
+			 padding:10px;*/
+			 background-image: url(images/04A.jpeg);
+			  			 }
+			.main{
+			style="background-color:#fff; 
+			margin-top:150px;
+			opacity:.8;
+			height:100px;
+			}
+			
+			hr{
+			border-style:dashed;
+			color:red;
+			}
+			.nav{
+			font-size:15px;
+			background-color:yellow;
+			font-family:tahoma;
+			color:red;
+			}
+			#footnote{
+			/*background-color:green;*/
+			color:#fff;
+			width: 100%;
+	
+			background-image:url(images/image1.jpg);
+			/*height:100px;*/
+			}
+			a{
+			text-decoration:none;
+			}
+/* style the button used to paude/play the video */
+			#myBtn {
+				width : 200px;
+				font-size: 18px;
+				padding: 10px;
+				border: none;
+				background: #000;
+				color: #fff;
+				cursor: pointer;
+			}
+			
+			
+		#myBtn:hover{
+text-decoration:underline;
+background-color:#ccc;
+background:#ddd;
+colour: black;
+		}
+		
+/* end of style for video  background*/
+			

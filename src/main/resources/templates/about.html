@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mypage</title>
+    <link rel="stylesheet" th:href="@{/css/format.css}">
+</head>
+<body bgcolor="#7fffd4">
+
+<a href="/"></button> Home </button></a>
+<div style="background-color:#fff; margin-top:150px;opacity:.8;">
+    <header>
+        <marquee behavior = "alternate" style="background-color:green;color:#fff;">
+
+            <h1> <strong> About Themes gallery </strong></h1></marquee>
+        <hr/>
+
+        <!-- Navigation start here-->
+        &nbsp;&nbsp;&nbsp;&nbsp; <!-- spacing-->
+        <div class="nav">
+
+            <center>
+                <a href="index.html" title="Training Home">	Home	</a> |
+                <a href="aboutus.html" target = "_blank"  title="Training - About Us">	About Us	</a> |
+                <a href="contantus.html" title="Training - Contact Us">	Contact Us	</a> |
+                <a href="ourservice.html" title="Training - Our Services"> Our Services	</a> |
+                <a href="photogallery.html" title="Training - Photo Gallery"> Photo Gallery	</a> |
+                <a href="registration.html" title="Training - Registration"> Registration	</a> |
+                <a href="table.html" title="Training - Table"> Table</a> |
+                <!-- External link to Facebook -->
+                <a href="https://facebook.com/" title="Facebook" target="_blank">
+                    <image src="images/facebook.png" width="20" height="20"> </a>
+
+            </center>
+            <hr/>
+
+
+        </div>
+        <!-- End of Nav div-->
+        <br/>
+
+        <!-- End of Nav div Navigation stop here-->
+    </header>
+
+    <article>
+
+        <h2> :::Home :::</h2>
+
+        On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.
+        You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly.
+        To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Style gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.
+
+
+    </article>
+
+    <p> <!-- alternative to paragraph, please use <br/> -->
+
+    <h3>Supported Video Format {OL) </h3>
+    <!-- ordered list start -->
+    <ol type ="a">
+        <li> .AVI </li>
+        <li> .MP4 </li>
+        <li> .OGG </li>
+        <li> .WMV </li>
+
+
+    </ol> <!-- ordered list end -->
+    <h3>Supported Video Format  (UL)</h3>
+    <!-- un-ordered list start -->
+    <ul type="square">
+        <li> .AVI </li>
+        <li> .MP4 </li>
+        <li> .OGG </li>
+        <li> .WMV </li>
+
+    </ul> <!-- un-ordered list end -->
+
+    </p>
+
+    <p>
+
+        video
+        <video width="300" height="200" src="videos/video1.mp4" controls autoplay>
+
+            Your browser does not support the <video> element.
+        </video>
+
+            Audio
+            <audio src="videos/name.mp3" controls autoplay loop>
+                html5 audio not supported
+
+                <!-- you can also use " <embed width="300" height="200" src="videos/video1.mp4">
+                </embed> -->
+            </audio>
+
+    </p>
+</div>
+<p>
+<div id ="footnote">   <!-- start of footer div-->
+    <footer>
+        <center><hr/>
+
+            <a href ="#">&copy; 2020 -2021 All Rights Reserved &trade; &reg; </a> |
+            <!-- External link to Mail -->
+            <a href="mailto:info@aptech.com" title="Send us mail">
+                Webmaster@aptech.com </a> |
+            <a href="https://facebook.com/" title="Facebook" target="_blank">
+                <image src="images/facebook.png" width="20" height="20" </a>
+        </center><hr/>
+    </footer>
+</div> <!-- end of footer div-->
+</p>
+
+</body>
+</html>
